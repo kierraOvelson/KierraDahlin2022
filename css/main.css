@@ -135,6 +135,8 @@ textarea {
   .header-container-flex {
     margin: 0 auto;
     margin-top: -80px;
+  }
+  .header-container-flex.home {
     margin-bottom: 10rem;
   }
   .site-logo {
@@ -202,7 +204,7 @@ textarea {
     margin: 0 auto;
   }
   .single-ft-card {
-    width: 258px;
+    width: 200px;
     height: 370px;
     background: #ffffff;
     border-radius: 10px;
@@ -215,6 +217,7 @@ textarea {
   }
   .single-ft-card img {
     margin-bottom: 2rem;
+    width: 100%;
   }
 
   .core-values-container {
@@ -307,6 +310,9 @@ textarea {
       max-width: 620px;
     }
     
+    .single-ft-card {
+      width: 260px;
+    }
 
     .about-btn-flex button {
       margin: 5px;
