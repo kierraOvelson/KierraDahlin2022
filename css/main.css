@@ -99,7 +99,11 @@ textarea {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 4rem;
+    /* padding: 1rem; */
+  }
+  div {
     padding: 1rem;
+    z-index: 2;
   }
   h1 {
     font-family: 'Berkshire Swash', cursive;
@@ -160,9 +164,9 @@ textarea {
     right: 0;
     z-index: -10;
   }
-  .about-me-content p {
+  /* .about-me-content p {
     padding-right: 2rem;
-  }
+  } */
   button {
     padding: 10px 20px 10px 20px;
     margin-bottom: 1.333rem;
@@ -197,7 +201,7 @@ textarea {
   }
   .ft-cards-flex {
     display: inline-flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -316,7 +320,7 @@ textarea {
     }
 
     .ft-cards-flex {
-      flex-direction: row;
+      /* flex-direction: row; */
       justify-content: space-between;
     }
 
